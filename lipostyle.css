@@ -4,7 +4,7 @@ h1::before {
     animation-duration: 25s;
 }
 @keyframes h1 {
-    0% {content: 'Welcome to';}
+    0% {content: 'Welcome to'; position:relative; justify-content: center;}
     25% {content: 'LipeDevs';}
     50% {content: 'WEBSITE';}
     100% {content: 'LipeDev : Blog';}
