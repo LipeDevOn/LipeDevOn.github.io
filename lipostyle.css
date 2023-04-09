@@ -2,11 +2,10 @@ h1::before {
     content: '';
     animation-name: h1;
     animation-duration: 25s;
-    animation-iteration-count: infinite;
 }
 @keyframes h1 {
-    0% {content: 'Heya';}
-    25% {content: 'good?';}
-    50% {content: 'noo';}
-    100% {content: 'ok';}
+    0% {content: 'Welcome to';}
+    25% {content: 'LipeDevs';}
+    50% {content: 'WEBSITE';}
+    100% {content: 'LipeDev : Blog';}
 }
