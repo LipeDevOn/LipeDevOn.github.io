@@ -1,5 +1,5 @@
 h1::before {
-    content: '';
+    content: 'LipeDev : Blog';
     animation-name: h1;
     animation-duration: 25s;
 }
