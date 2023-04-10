@@ -1,11 +1,62 @@
-h1::before {
-    content: 'LipeDev : Blog';
-    animation-name: h1;
-    animation-duration: 25s;
+* {
+    padding: 0;
+    margin: 0;
 }
-@keyframes h1 {
-    0% {content: 'Welcome to'; position:relative; justify-content: center;}
-    25% {content: 'LipeDevs';}
-    50% {content: 'WEBSITE';}
-    100% {content: 'LipeDev : Blog';}
+.img1 {
+    width: 1cm;
+    border-radius: 10cm;
+    border-style: inset;
 }
+.navbar {
+    padding-right: 2mm;
+    padding-left: 2mm;
+    background-color: rgb(151, 77, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.imp {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+.dropbtn {
+    background-color: #808080;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2mm;
+}  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: rgb(151, 151, 151);}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: purple;
+  }
