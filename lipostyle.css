@@ -10,7 +10,7 @@
 .navbar {
     padding-right: 2mm;
     padding-left: 2mm;
-    background-color: rgb(151, 77, 255);
+    background-color: rgb(164, 99, 255);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,6 +19,10 @@
 .imp {
     display: flex;
     align-items: center;
+}
+.texto1 {
+  font-size: 6mm;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ul {
